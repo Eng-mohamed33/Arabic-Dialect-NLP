@@ -28,3 +28,5 @@ data/gold/*
 !data/gold/egy_msa_gold_template.csv
 !data/gold/egy_msa_gold.csv
 !reports/mt5_gold_predictions.jsonl
+
+.env
