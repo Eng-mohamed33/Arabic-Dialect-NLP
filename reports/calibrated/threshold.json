@@ -1,0 +1,5 @@
+{
+  "threshold": 0.34,
+  "f1": 0.7128463476070529,
+  "rule": "predicted Egyptian and confidence >= threshold"
+}

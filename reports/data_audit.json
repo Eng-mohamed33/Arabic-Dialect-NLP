@@ -1,0 +1,67 @@
+{
+  "dialect": {
+    "raw_rows": 135804,
+    "general_removed": 2500,
+    "empty_removed": 11,
+    "too_long_removed": 144,
+    "conflicting_texts_dropped": 301,
+    "duplicates_removed": 8098,
+    "classes_dropped_too_small": {
+      "Iraqi": 212
+    },
+    "final_rows": 123009,
+    "label_counts": {
+      "Levantine": 84157,
+      "Maghrebi": 27689,
+      "Gulf": 6620,
+      "Egyptian": 4543
+    },
+    "label_by_source": {
+      "Egyptian": {
+        "AOC": 4124,
+        "DART": 419
+      },
+      "Gulf": {
+        "AOC": 6200,
+        "DART": 420
+      },
+      "Levantine": {
+        "SHAMI": 66003,
+        "PADIC": 11440,
+        "AOC": 6323,
+        "DART": 391
+      },
+      "Maghrebi": {
+        "PADIC": 16599,
+        "TSAC": 10734,
+        "DART": 328,
+        "AOC": 28
+      }
+    }
+  },
+  "parallel": {
+    "raw_rows": {
+      "train": 57000,
+      "valid": 100,
+      "test": 2227
+    },
+    "after_dedupe": {
+      "train": 55162,
+      "valid": 100,
+      "test": 2223
+    },
+    "gold_rows": 0,
+    "valid_removed_overlap_test": 0,
+    "train_removed_leakage": 463,
+    "final_rows": {
+      "train": 54699,
+      "valid": 100,
+      "test": 2223
+    },
+    "identical_share": {
+      "train": 0.0063,
+      "valid": 0.01,
+      "test": 0.0103
+    }
+  }
+}

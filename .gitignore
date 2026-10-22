@@ -1,0 +1,30 @@
+# environments / caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest-tmp/
+.coverage
+.mypy_cache/
+.ruff_cache/
+.env
+
+# data and models are never committed (research-only datasets, 1.2 GB model)
+data/raw/
+data/processed/
+IADD-main/
+EGY_MSA_Translation-main/
+models/
+hub_models/
+outputs/
+*.csv
+*.jsonl
+*.parquet
+*.joblib
+
+# ...except your hand-written gold set and small result files
+data/gold/*
+!data/gold/README.md
+!data/gold/egy_msa_gold_template.csv
+!data/gold/egy_msa_gold.csv
+!reports/mt5_gold_predictions.jsonl

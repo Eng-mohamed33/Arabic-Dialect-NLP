@@ -1,0 +1,76 @@
+{
+  "accuracy": 0.9378912283554183,
+  "macro_f1": 0.8405995928467908,
+  "weighted_f1": 0.9360426854547054,
+  "per_class": {
+    "Egyptian": {
+      "precision": 0.8614457831325302,
+      "recall": 0.6285714285714286,
+      "f1-score": 0.7268106734434562,
+      "support": 455.0
+    },
+    "Gulf": {
+      "precision": 0.7715736040609137,
+      "recall": 0.6888217522658611,
+      "f1-score": 0.727853152434158,
+      "support": 662.0
+    },
+    "Levantine": {
+      "precision": 0.947441537392915,
+      "recall": 0.9725490196078431,
+      "f1-score": 0.9598311147598663,
+      "support": 8415.0
+    },
+    "Maghrebi": {
+      "precision": 0.9529197080291971,
+      "recall": 0.9429396894185627,
+      "f1-score": 0.9479034307496823,
+      "support": 2769.0
+    }
+  },
+  "labels": [
+    "Egyptian",
+    "Gulf",
+    "Levantine",
+    "Maghrebi"
+  ],
+  "confusion_matrix": [
+    [
+      286,
+      22,
+      131,
+      16
+    ],
+    [
+      7,
+      456,
+      186,
+      13
+    ],
+    [
+      35,
+      96,
+      8184,
+      100
+    ],
+    [
+      4,
+      17,
+      137,
+      2611
+    ]
+  ],
+  "seed": 42,
+  "calibrated": true,
+  "sizes": {
+    "all": 123009,
+    "train": 98407,
+    "validation": 12301,
+    "test": 12301
+  },
+  "calibration": {
+    "threshold": 0.34,
+    "f1": 0.7128463476070529,
+    "rule": "predicted Egyptian and confidence >= threshold"
+  }
+}

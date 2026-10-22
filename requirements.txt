@@ -1,0 +1,15 @@
+pandas>=2.2,<3
+scikit-learn>=1.5,<2
+joblib>=1.4,<2
+pytest>=8,<9
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+# Optional GPU/evaluation stack
+transformers>=4.46,<6
+torch>=2.2
+sacrebleu>=2.4,<3
+sentencepiece
+accelerate
+# evaluate
+# bert-score
+
